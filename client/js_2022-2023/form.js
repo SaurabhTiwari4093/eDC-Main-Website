@@ -1,5 +1,5 @@
 // Base URL
-const base_url = 'https://edc-iitd.azurewebsites.net/';
+const base_url = 'https://edciitd.com/';
 
 // Contact Form
 const contactForm = document.getElementById('myForm');

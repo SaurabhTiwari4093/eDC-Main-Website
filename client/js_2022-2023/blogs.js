@@ -1,5 +1,5 @@
 // Base URL
-const base_url = 'https://edc-iitd.azurewebsites.net/';
+const base_url = 'https://edciitd.com/';
 
 function showToHtml(data) {
     const blogContent = document.getElementById('blog-content');
