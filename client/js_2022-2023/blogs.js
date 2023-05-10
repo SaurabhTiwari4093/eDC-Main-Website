@@ -1,5 +1,5 @@
 // Base URL
-const base_url = 'https://edciitd.com/';
+const base_url = 'https://www.edciitd.com/';
 
 function showToHtml(data) {
     const blogContent = document.getElementById('blog-content');

@@ -1,5 +1,5 @@
 // Base URL
-const base_url = 'https://edciitd.com/';
+const base_url = 'https://www.edciitd.com/';
 
 // Contact Form
 const contactForm = document.getElementById('myForm');
