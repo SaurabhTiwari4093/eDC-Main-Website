@@ -17,7 +17,7 @@ app.use(express.json())
 // app.get('/',(req,res)=>{
 //     res.send('eDC website backend')
 // })
-// app.use(express.static("client"));
+app.use(express.static("public"));
 
 const messageRouter = require('./routes/message')
 app.use('/api/message', messageRouter)
