@@ -1,5 +1,5 @@
 // Base URL
-const base_url = 'https://edc-iitd-backend.vercel.app/';
+const base_url = 'https://edc-iitd.onrender.com/';
 
 // Contact Form
 const contactForm = document.getElementById('myForm');

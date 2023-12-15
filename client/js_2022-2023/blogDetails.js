@@ -1,5 +1,5 @@
 // Base URL
-const base_url = 'https://edc-iitd-backend.vercel.app/';
+const base_url = 'https://edc-iitd.onrender.com/';
 
 function showToHtml(data) {
     const blogContent = document.getElementById('blog-content');
