@@ -15,9 +15,9 @@ app.use(cors())
 app.use(express.json())
 
 // app.get('/',(req,res)=>{
-//     res.send('Hello world')
+//     res.send('eDC website backend')
 // })
-app.use(express.static("client"));
+// app.use(express.static("client"));
 
 const messageRouter = require('./routes/message')
 app.use('/api/message', messageRouter)
