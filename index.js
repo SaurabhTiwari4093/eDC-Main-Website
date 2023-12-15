@@ -14,10 +14,9 @@ db.once('open', () => console.log('Connected to Database'))
 app.use(cors())
 app.use(express.json())
 
-// app.get('/',(req,res)=>{
-//     res.send('eDC website backend')
-// })
-app.use(express.static("public"));
+app.get('/',(req,res)=>{
+    res.send('eDC website backend')
+})
 
 const messageRouter = require('./routes/message')
 app.use('/api/message', messageRouter)
