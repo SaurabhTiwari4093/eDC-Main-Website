@@ -1,5 +1,5 @@
 // Base URL
-const base_url = 'https://edc-iitd.onrender.com/';
+const base_url = 'https://edc-iitd.saurabh-tiwari.tech/';
 
 // Contact Form
 const contactForm = document.getElementById('myForm');
